@@ -1,0 +1,20 @@
+{
+  "short_name": "darkmode",
+  "name": "Dark Mode",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "https://www.ppsbathrooms.com/*",
+    "https://www.desmos.com/*"
+  ],
+  "manifest_version": 2,
+  "browser_action": {
+    "default_title": "Dark Mode"
+  },
+  "version": "1.0"
+}

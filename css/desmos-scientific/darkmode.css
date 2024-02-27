@@ -1,0 +1,86 @@
+:root {
+    --background: #121211;
+    --secondary: #232322;
+    --text: #abb2bf;
+}
+
+body {
+    background: var(--background) !important;
+}
+
+.dcg-main-header-container {
+    background: var(--secondary) !important;
+}
+
+.dcg-header-center-content span,
+.dcg-header-right-content span {
+    color: var(--text) !important;
+}
+
+.dcg-calc-basic-main {
+    background: var(--background) !important;
+    color: var(--text);
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.dcg-mq-root-block {
+    color: #fff;
+}
+
+.dcg-basic-expression {
+    border: 1px solid #abb2bf !important;
+}
+
+.dcg-calculator-api-container .dcg-basic-keypad .dcg-keypad-btn-container .dcg-keypad-btn.dcg-btn-light-on-gray {
+    background: var(--secondary) !important;
+    color: var(--text);
+}
+
+.dcg-keypad-control-btn {
+    background: none !important;
+    border-radius: 10px;
+    border: 1px solid white;
+    color: var(--text) !important;
+}
+
+.dcg-basic-calculator-footer a {
+    color: #343433 !important;
+}
+
+.dcg-icon-world,
+.dcg-icon-print,
+.dcg-icon-arrow-left,
+.dcg-icon-arrow-right,
+.dcg-icon-delete,
+.dcg-icon-shift {
+    filter: invert();
+}
+
+.dcg-keypad-control-toggle {
+    background: var(--background) !important;
+    color: #fff !important;
+    border: 1px solid #fff !important;
+}
+
+.dcg-calculator-api-container .dcg-keypad-control-bar .dcg-keypad-control-btn:not(.dcg-disabled).dcg-selectable-btn.dcg-selected:after {
+    width: 75%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+}
+
+.dcg-calculator-api-container .dcg-keypad-control-bar .dcg-keypad-control-btn:not(.dcg-disabled).dcg-selectable-btn.dcg-hovered:not(.dcg-selected):after {
+    width: 75%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+}
+
+.dcg-answer-hint {
+    color: #fff !important;
+}
+
+.dcg-calculator-api-container .dcg-container .dcg-mq-editable-field:not(.dcg-no-fadeout):after {
+    background: linear-gradient(to right, #fff0, var(--background)) !important;
+}
