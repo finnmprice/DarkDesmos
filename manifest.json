@@ -1,20 +1,19 @@
 {
-  "short_name": "darkmode",
-  "name": "Dark Mode",
-  "background": {
-    "scripts": ["background.js"],
-    "persistent": false
-  },
-
-  "permissions": [
-    "activeTab",
-    "tabs",
-    "https://www.ppsbathrooms.com/*",
-    "https://www.desmos.com/*"
+  "name": "Desmos Dark Mode",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "description": "Dark mode for Desmos.",
+  "content_scripts": [
+      {
+          "matches": [
+              "https://*.desmos.com/scientific*"
+          ],
+          "css": [
+              "dark.css"
+          ]
+      }
   ],
-  "manifest_version": 2,
-  "browser_action": {
-    "default_title": "Dark Mode"
-  },
-  "version": "1.0"
+  "icons": {
+      
+  }
 }

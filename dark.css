@@ -1,0 +1,89 @@
+body,
+.dcg-header-link-dropdown,
+.dcg-language-picker-dropdown {
+    background: #131213 !important;
+}
+
+.dcg-main-header-container,
+.dcg-calc-basic-main,
+.dcg-keypad-btn.dcg-btn-light-on-gray {
+    background: #1f1e1f !important;
+}
+
+.dcg-scientific-container,
+.dcg-calculator-api-container-v1_10,
+.dcg-calc-basic-main,
+.dcg-basic-list-container,
+.dcg-basic-keypad-container {
+    background: #1f1e1f !important;
+    border: none !important;
+}
+
+.dcg-basic-list-container {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.dcg-basic-list-container::-webkit-scrollbar {
+    display: none;
+}
+
+.dcg-calculator-api-container-v1_10 .dcg-container {
+    background: none !important;
+    border: none !important;
+}
+
+.dcg-desmos-svg-logo {
+    filter: brightness(200%);
+}
+
+.dcg-log-in,
+.dcg-header-center-content span,
+.dcg-mq-root-block .dcg-mq-empty span,
+.dcg-answer-hint,
+.dcg-mq-root-block span,
+.dcg-mq-root-block var,
+.dcg-mq-root-block var,
+.dcg-keypad-btn-content,
+.dcg-keypad-control-btn.dcg-selected.dcg-selectable-btn,
+.dcg-keypad-control-btn.dcg-selectable-btn,
+.dcg-keypad-control-btn,
+.dcg-segmented-control-interior,
+.dcg-header-link-dropdown ul li a,
+.dcg-classroom-about-link-dropdown-container div,
+.dcg-unstyled-list li div,
+.dcg-language-picker-dropdown,
+.dcg-calculator-api-container-v1_10 .dcg-language-picker .dcg-language-option.dcg-depressed,
+.dcg-calculator-api-container-v1_10 .dcg-language-picker .dcg-language-option.dcg-selected,
+.dcg-popover-title {
+    color: #eee !important;
+}
+
+.dcg-keypad-control-btn.dcg-disabled,
+.dcg-calculator-api-container-v1_10 .dcg-language-picker .dcg-language-option,
+.dcg-basic-calculator-footer a {
+    color: #777 !important;
+}
+
+.dcg-calculator-api-container-v1_10 .dcg-basic-expression {
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+}
+
+.dcg-icon-world,
+.dcg-icon-print {
+    filter: invert() !important;
+}
+
+.dcg-calculator-api-container-v1_10 .dcg-container .dcg-mq-editable-field:not(.dcg-no-fadeout):after,
+.dcg-calculator-api-container-v1_10 .dcg-container .dcg-mq-editable-field:not(.dcg-no-fadeout) .dcg-mq-root-block.dcg-mq-editing-overflow-left:before {
+    background: linear-gradient(to right,#fff0,#1f1e1f) !important;
+}
+
+.dcg-calculator-api-container-v1_10 .dcg-basic-expression.dcg-focused {
+    border-color: #fff !important;
+    box-shadow: inset 0 0 0 0px #fff !important;
+}
+
+.dcg-popover-title {
+    background: none !important;
+}
