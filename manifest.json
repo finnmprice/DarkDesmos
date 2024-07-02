@@ -4,16 +4,24 @@
   "manifest_version": 3,
   "description": "Dark mode for Desmos.",
   "content_scripts": [
-      {
-          "matches": [
-              "https://*.desmos.com/scientific*"
-          ],
-          "css": [
-              "dark.css"
-          ]
-      }
+	  {
+	    "matches": [
+	      "https://*.desmos.com/calculator*"
+	    ],
+	    "css": [
+	      "graphing.css"
+	    ]
+	  },
+	  {
+	    "matches": [
+	      "https://*.desmos.com/scientific*"
+	    ],
+	    "css": [
+	      "scientific.css"
+	    ]
+	  }
   ],
   "icons": {
-      
+  	"128":"icon.png"
   }
 }

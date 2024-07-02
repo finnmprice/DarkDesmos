@@ -43,7 +43,6 @@ body,
 .dcg-answer-hint,
 .dcg-mq-root-block span,
 .dcg-mq-root-block var,
-.dcg-mq-root-block var,
 .dcg-keypad-btn-content,
 .dcg-keypad-control-btn.dcg-selected.dcg-selectable-btn,
 .dcg-keypad-control-btn.dcg-selectable-btn,
@@ -55,7 +54,9 @@ body,
 .dcg-language-picker-dropdown,
 .dcg-calculator-api-container-v1_10 .dcg-language-picker .dcg-language-option.dcg-depressed,
 .dcg-calculator-api-container-v1_10 .dcg-language-picker .dcg-language-option.dcg-selected,
-.dcg-popover-title {
+.dcg-popover-title,
+.dcg-icon-world,
+.dcg-icon-print {
     color: #eee !important;
 }
 
@@ -67,11 +68,6 @@ body,
 
 .dcg-calculator-api-container-v1_10 .dcg-basic-expression {
     border: 1px solid rgba(255, 255, 255, 0.2) !important;
-}
-
-.dcg-icon-world,
-.dcg-icon-print {
-    filter: invert() !important;
 }
 
 .dcg-calculator-api-container-v1_10 .dcg-container .dcg-mq-editable-field:not(.dcg-no-fadeout):after,

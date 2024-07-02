@@ -1,0 +1,137 @@
+body,
+.dcg-exppanel.dcg-disable-horizontal-scroll-to-cursor,
+.dcg-btn-light-gray,
+.dcg-expression-edit-actions,
+.dcg-container,
+.dcg-calculator-api-container-v1_10 .dcg-container .dcg-mq-editable-field:not(.dcg-no-fadeout),
+.dcg-main,
+.dcg-fade-container {
+background: #131213 !important;
+}
+
+.dcg-tab,
+.dcg-expression-top-bar,
+.dcg-show-keypad-container div div,
+.dcg-minimize-keypad-container div div,
+.dcg-label,
+.dcg-btn-flat-gray,
+.dcg-popover-interior,
+.dcg-advanced-toggle,
+.dcg-axis-label label,
+.dcg-axis-label input,
+.dcg-axis-label input::placeholder,
+.dcg-keys-background,
+.dcg-keypad-btn,
+.dcg-section-heading,
+.dcg-icon-question-sign,
+.dcg-unstyled-heading,
+.dcg-resource-link span,
+.dcg-resource-link i,
+.dcg-feature,
+.dcg-contact-link span,
+.dcg-contact-link i,
+.dcg-share-actions span span,
+.dcg-share-actions button span,
+.dcg-selected,
+.dcg-popover-title {
+	background: #1f1e1f !important;
+	color: #eee !important;
+	text-shadow: none !important;
+}
+
+.dcg-smart-textarea {
+	color: #eee !important;
+}
+
+.dcg-arrow {
+  border-left-color: #1f1e1f !important;
+}
+
+.dcg-calculator-api-container-v1_10 .dcg-popover.dcg-top .dcg-arrow {
+	border-top-color: #1f1e1f !important;
+}
+
+.dcg-calculator-api-container-v1_10 .dcg-popover.dcg-bottom .dcg-arrow {
+ border-bottom-color: #1f1e1f !important;
+}
+
+.dcg-minimize-keypad-container div div {
+	border-bottom-color: #fff0 !important;
+}
+
+.dcg-axis-label input,
+.dcg-keypad-btn {
+	border: 1px solid white !important;
+}
+
+.dcg-tooltip-hit-area-container.dcg-depressed,
+.dcg-action-zoomrestore.dcg-depressed,
+.dcg-settings-pillbox.dcg-depressed {
+	background: #3C3A3C !important;
+	border-radius: 5px !important;
+}
+
+.dcg-label {
+	text-shadow: none !important;
+}
+
+.dcg-graph-outer,
+.dcg-colored-icon{
+	/* filter: invert() !important; */
+}
+
+.dcg-btn-light-gray {
+	border: 1px solid white !important;
+}
+
+.dcg-mq-root-block .dcg-mq-empty,
+.dcg-mq-root-block span,
+.dcg-mq-root-block var,
+.dcg-msg,
+.dcg-icon-desmos,
+.dcg-powered-by {
+	color: #eee !important;
+}
+
+.dcg-header-desktop {
+	background: #1f1e1f !important;
+}
+
+.dcg-mq-editable-field:not(.dcg-no-fadeout):after,
+.dcg-graphic {
+	background: linear-gradient(to right,#fff0, #131213) !important;
+}
+
+.dcg-calculator-api-container-v1_10 .dcg-container .dcg-mq-editable-field:not(.dcg-no-fadeout) .dcg-mq-root-block.dcg-mq-editing-overflow-left:before {
+	background: linear-gradient(to left, #fff0, #131213) !important;
+}
+
+.dcg-new-expression-fade {
+	background: linear-gradient(to top,#131213,#fff0 50%) !important;
+}
+
+.dcg-calculator-api-container-v1_10 .dcg-expressionitem.dcg-expressiontable .dcg-table-container:after {
+	background: linear-gradient(to right,#fff0,#131213) !important;
+}
+
+.dcg-calculator-api-container-v1_10 .dcg-expressionitem.dcg-expressiontable.dcg-faded-v .dcg-tabledata:before {
+	background: linear-gradient(to top,#131213,#fff0) !important;
+}
+
+.dcg-calculator-api-container-v1_10 .dcg-expressionitem.dcg-expressiontable .dcg-table-container:before {
+	background: linear-gradient(to left,#fff0,#131213) !important;
+}
+
+.dcg-calculator-api-container-v1_10 .dcg-expressionitem.dcg-expressiontable.dcg-faded-h .dcg-tabledata:after {
+	background: linear-gradient(to left,#131213,#fff0) !important;
+}
+
+.dcg-icon-remove,
+.dcg-icon-duplicate {
+	/* filter: invert(); */
+	color: #eee !important;
+}
+
+.dcg-icon-error {
+	color: #e66b3c !important;
+}
