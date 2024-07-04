@@ -6,7 +6,9 @@ body,
 
 .dcg-main-header-container,
 .dcg-calc-basic-main,
-.dcg-keypad-btn.dcg-btn-light-on-gray {
+.dcg-keypad-btn.dcg-btn-light-on-gray,
+.dcg-latex-expression,
+.dcg-keypad-control-bar {
     background: #1f1e1f !important;
 }
 
@@ -14,17 +16,22 @@ body,
 .dcg-calculator-api-container-v1_10,
 .dcg-calc-basic-main,
 .dcg-basic-list-container,
-.dcg-basic-keypad-container {
+.dcg-basic-keypad-container,
+.dcg-matrix-container,
+.dcg-matrix-list-container,
+.dcg-matrix-list-placeholder {
     background: #1f1e1f !important;
     border: none !important;
 }
 
-.dcg-basic-list-container {
+.dcg-basic-list-container,
+.dcg-matrix-list-container {
     scrollbar-width: none;
     -ms-overflow-style: none;
 }
 
-.dcg-basic-list-container::-webkit-scrollbar {
+.dcg-basic-list-container::-webkit-scrollbar,
+.dcg-matrix-list-container::-webkit-scrollbar {
     display: none;
 }
 
@@ -57,7 +64,8 @@ body,
 .dcg-popover-title,
 .dcg-icon-world,
 .dcg-icon-print,
-.dcg-icon-fraction {
+.dcg-icon-fraction,
+.dcg-resize-section {
     color: #eee !important;
 }
 
@@ -67,12 +75,14 @@ body,
     color: #777 !important;
 }
 
-.dcg-calculator-api-container-v1_10 .dcg-basic-expression {
+.dcg-calculator-api-container-v1_10 .dcg-basic-expression,
+.dcg-latex-expression {
     border: 1px solid rgba(255, 255, 255, 0.2) !important;
 }
 
 .dcg-calculator-api-container-v1_10 .dcg-container .dcg-mq-editable-field:not(.dcg-no-fadeout):after,
-.dcg-calculator-api-container-v1_10 .dcg-container .dcg-mq-editable-field:not(.dcg-no-fadeout) .dcg-mq-root-block.dcg-mq-editing-overflow-left:before {
+.dcg-calculator-api-container-v1_10 .dcg-container .dcg-mq-editable-field:not(.dcg-no-fadeout) .dcg-mq-root-block.dcg-mq-editing-overflow-left:before,
+.dcg-matrix-api-container-v1_10 .dcg-container .dcg-mq-editable-field:not(.dcg-no-fadeout):after {
     background: linear-gradient(to right,#fff0,#1f1e1f) !important;
 }
 
@@ -87,4 +97,20 @@ body,
 
 .dcg-basic-fraction-toggle {
     border: 1px solid #eee !important;
+}
+
+.dcg-matrix-api-container-v1_10 .dcg-keypad-control-btn:not(.dcg-disabled):not(.dcg-menu-btn):not(.dcg-selectable-btn).dcg-hovered {
+    box-shadow: none !important;
+}
+
+.dcg-matrix-api-container-v1_10 .dcg-keypad-control-btn:not(.dcg-disabled):not(.dcg-menu-btn).dcg-hovered {
+    background: rgba(255, 255, 255, 0.2) !important;
+    border-radius: 10px !important;
+    z-index: 1 !important;
+}
+
+.dcg-matrix-api-container-v1_10 .dcg-btn-blue, .dcg-matrix-api-container-v1_10 .dcg-btn-primary {
+    border: none !important;
+    border-radius: 10px !important;
+    z-index: 1 !important;
 }

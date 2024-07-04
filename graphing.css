@@ -6,7 +6,7 @@ body,
 .dcg-calculator-api-container-v1_10 .dcg-container .dcg-mq-editable-field:not(.dcg-no-fadeout),
 .dcg-main,
 .dcg-fade-container {
-background: #131213 !important;
+	background: #131213 !important;
 }
 
 .dcg-tab,
@@ -33,7 +33,9 @@ background: #131213 !important;
 .dcg-share-actions span span,
 .dcg-share-actions button span,
 .dcg-selected,
-.dcg-popover-title {
+.dcg-popover-title,
+.dcg-geometry-toolbar-view,
+.dcg-options-menu-section {
 	background: #1f1e1f !important;
 	color: #eee !important;
 	text-shadow: none !important;
@@ -140,4 +142,30 @@ background: #131213 !important;
 
 .dcg-desmos-svg-logo {
 	transform: translate(70%, -2px) !important;
+}
+
+.dcg-grapher-3d,
+.dcg-dropdown-tool {
+	filter: invert();
+}
+
+.dcg-dropdown-tool span {
+	filter: invert() !important;
+}
+
+.dcg-basic-tool-btn {
+	filter: invert() !important;
+}
+
+.dcg-calculator-api-container-v1_10 .dcg-geo-basic-tools .dcg-geo-basic-tools-row .dcg-tool-button-container>button.dcg-hovered:not(.dcg-disabled):not(.dcg-selected) {
+	border: 1px solid white !important;
+	box-shadow: none !important;
+}
+
+.dcg-calculator-api-container-v1_10 .dcg-geo-basic-tools .dcg-geo-basic-tools-row .dcg-tool-button-container>button.dcg-hovered {
+	background: rgba(255, 255, 255, 0.2) !important;
+}
+
+.dcg-options-menu-section {
+	border-radius: 5px !important;
 }

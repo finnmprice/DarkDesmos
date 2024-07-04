@@ -1,20 +1,24 @@
 {
   "name": "Dark Desmos",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "manifest_version": 3,
   "description": "Dark mode for Desmos.",
   "content_scripts": [
 	  {
 	    "matches": [
-	      "https://*.desmos.com/calculator*"
-	    ],
+	      "https://*.desmos.com/calculator*",
+	      "https://*.desmos.com/3d*",
+		  "https://*.desmos.com/geometry*"
+		],
 	    "css": [
 	      "graphing.css"
 	    ]
 	  },
 	  {
 	    "matches": [
-	      "https://*.desmos.com/scientific*"
+	      "https://*.desmos.com/scientific*",
+		  "https://*.desmos.com/fourfunction*",
+		  "https://*.desmos.com/matrix*"
 	    ],
 	    "css": [
 	      "scientific.css"
