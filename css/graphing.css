@@ -169,3 +169,7 @@ body,
 .dcg-options-menu-section {
 	border-radius: 5px !important;
 }
+
+.dcg-calculator-api-container-v1_10 .dcg-smart-textarea-container .dcg-displayTextarea {
+	color: #eee !important;
+}

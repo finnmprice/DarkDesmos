@@ -1,6 +1,6 @@
 {
   "name": "Dark Desmos",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "manifest_version": 3,
   "description": "Dark mode for Desmos.",
   "content_scripts": [
@@ -11,7 +11,7 @@
 		  "https://*.desmos.com/geometry*"
 		],
 	    "css": [
-	      "graphing.css"
+	      "css/graphing.css"
 	    ]
 	  },
 	  {
@@ -21,7 +21,15 @@
 		  "https://*.desmos.com/matrix*"
 	    ],
 	    "css": [
-	      "scientific.css"
+	      "css/scientific.css"
+	    ]
+	  },
+	  {
+	    "matches": [
+	      "https://*.desmos.com/*"
+	    ],
+	    "css": [
+	      "css/home.css"
 	    ]
 	  }
   ],

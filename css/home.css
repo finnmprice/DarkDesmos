@@ -1,0 +1,53 @@
+body,
+.dcg-header-link-dropdown,
+.dcg-language-picker-dropdown,
+.dcg-language-picker-dropdown,
+.dcg-popover-title,
+.dcg-shared-modal-contents-wrapper,
+.dcg-shared-bg-line span {
+    background: #131213 !important;
+    color: #eee !important;
+}
+
+body img {
+    display: none !important;
+}
+
+.dcg-art-outer-wrapper,
+.dcg-main-header-container {
+    background: #1f1e1f !important;
+}
+
+.dcg-log-in,
+.dcg-header-center-content span,
+.dcg-header-link-dropdown ul li a,
+.dcg-icon-world,
+.dcg-language-option.dcg-selected,
+.dcg-app-links ,
+.dcg-header-link-dropdown li,
+.dcg-dropdown-link,
+.dcg-classroom-card {
+    color: #eee !important;
+}
+
+.dcg-shared-email-form-container input,
+.dcg-shared-google-login,
+.dcg-shared-apple-login,
+.dcg-btn-gray-outline {
+    background: #1f1e1f !important;
+    color: #eee !important;
+}
+
+.dcg-shared-action-password {
+    color: #777 !important;
+}
+
+.dcg-shared-google-login,
+.dcg-shared-apple-login,
+.dcg-btn-gray-outline {
+    border: 1px solid white !important;
+}
+
+.dcg-shared-apple-icon {
+    mix-blend-mode: multiply;
+}
