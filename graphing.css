@@ -89,8 +89,10 @@ background: #131213 !important;
 .dcg-mq-root-block var,
 .dcg-msg,
 .dcg-icon-desmos,
-.dcg-powered-by {
+.dcg-powered-by,
+.dcg-icon-show {
 	color: #eee !important;
+	text-shadow: none !important;
 }
 
 .dcg-header-desktop {
@@ -134,4 +136,8 @@ background: #131213 !important;
 
 .dcg-icon-error {
 	color: #e66b3c !important;
+}
+
+.dcg-desmos-svg-logo {
+	transform: translate(70%, -2px) !important;
 }

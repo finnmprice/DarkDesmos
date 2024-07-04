@@ -56,7 +56,8 @@ body,
 .dcg-calculator-api-container-v1_10 .dcg-language-picker .dcg-language-option.dcg-selected,
 .dcg-popover-title,
 .dcg-icon-world,
-.dcg-icon-print {
+.dcg-icon-print,
+.dcg-icon-fraction {
     color: #eee !important;
 }
 
@@ -82,4 +83,8 @@ body,
 
 .dcg-popover-title {
     background: none !important;
+}
+
+.dcg-basic-fraction-toggle {
+    border: 1px solid #eee !important;
 }
