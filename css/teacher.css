@@ -1,0 +1,32 @@
+body,
+.heading-wrapper,
+.homepage-content-section.polypad-section,
+.polypad-section-background-container,
+.logged-out-homepage-container {
+	background: #131213 !important;
+	color: #eee !important;
+}
+
+.teacher-page-top-bar-interior,
+.logged-out-cta-cards,
+.landing-page-content-container,
+.footer-link-container,
+.teacher-page .full-width-page .page-wrapper .fixed-sidebar,
+.teacher-page .teacher-page-content.logged-out-home,
+.teacher-page {
+	background: #1f1e1f !important;
+	color: #eee !important;
+}
+
+.detail-text,
+.footer-link:hover{
+	color: #eee !important;
+}
+
+.footer-link {
+	color: #777 !important;
+}
+
+.logo-link span svg {
+	color: #fff !important;
+}

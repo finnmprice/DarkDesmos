@@ -1,0 +1,10 @@
+body {
+	background: #131213 !important;
+	color: #eee !important;
+}
+
+.modal-contents {
+	background: #1f1e1f !important;
+	color: #eee !important;
+	border-radius: 10px !important;
+}
