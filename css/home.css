@@ -20,6 +20,7 @@ body,
 .dcg-log-in,
 .dcg-header-center-content span,
 .dcg-header-link-dropdown ul li a,
+.dcg-icon-print,
 .dcg-icon-world,
 .dcg-icon-rocket,
 .dcg-icon-lock,
@@ -34,8 +35,11 @@ body,
 .dcg-shared-profile-info-title,
 .dcg-shared-profile-info-content,
 .dcg-shared-account-paragraph,
-.dcg-shared-change-email-description {
+.dcg-shared-change-email-description,
+.dcg-component-checkbox span,
+.dcg-shared-email-form-container label{
     color: #eee !important;
+    opacity: 1 !important;
 }
 
 .dcg-year-picker a {
@@ -48,6 +52,7 @@ body,
 .dcg-btn-gray-outline {
     background: #1f1e1f !important;
     color: #eee !important;
+    border-radius: 10px !important;
 }
 
 .dcg-shared-action-password {
@@ -69,9 +74,23 @@ body,
 }
 
 .dcg-header-link-title-container:hover {
-		color: #777 !important;
+	color: #777 !important;
 }
 
 .dcg-contest-info-container .dcg-contest-info {
-			background: #121211 url(/assets/img/contest/art-contest-wave-2023.png) left !important;
+	background: #121211 url(/assets/img/contest/art-contest-wave-2023.png) left !important;
+}
+
+.align-right-container {
+    display: flex !important;
+}
+
+.dcg-calculator-api-container-v1_10 .dcg-shared-account-dialog .dcg-shared-cookie-notice {
+    border: 1px solid white !important;
+    color: #eee !important;
+    background: none !important;
+}
+
+.dcg-btn-blue {
+    border-radius: 10px !important;
 }

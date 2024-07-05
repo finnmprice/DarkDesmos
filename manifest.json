@@ -30,7 +30,10 @@
 	    ],
 	    "css": [
 	      "css/home.css"
-	    ]
+	    ],
+		"js": [
+			"js/header.js"
+		]
 	  },
 	  {
 	    "matches": [
@@ -66,5 +69,9 @@
   ],
   "icons": {
   	"128":"images/icon.png"
-  }
+  },
+  "web_accessible_resources": [{
+    "resources": ["css/github.svg"],
+    "matches": ["https://*.desmos.com/*"]
+  }]
 }
