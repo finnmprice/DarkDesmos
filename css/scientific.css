@@ -55,7 +55,6 @@ body,
 .dcg-keypad-control-btn.dcg-selected.dcg-selectable-btn,
 .dcg-keypad-control-btn.dcg-selectable-btn,
 .dcg-keypad-control-btn,
-.dcg-segmented-control-interior,
 .dcg-header-link-dropdown ul li a,
 .dcg-classroom-about-link-dropdown-container div,
 .dcg-unstyled-list li div,
@@ -123,4 +122,19 @@ body,
 
 .dcg-calculator-api-container-v1_10 .dcg-settings-dropdown.dcg-popover .dcg-popover-interior:before {
     display: none !important;
+}
+
+.dcg-segmented-control-btn {
+    color: #777 !important;
+    border: 1px solid #777 !important;
+}
+
+.dcg-segmented-control-btn.dcg-theme-mini.dcg-selected {
+    color: #eee !important;
+    border: 1px solid #eee !important;
+}
+
+.dcg-calculator-api-container-v1_10 .dcg-keypad-control-bar .dcg-keypad-control-btn:not(.dcg-disabled).dcg-selectable-btn.dcg-selected:after,
+.dcg-calculator-api-container-v1_10 .dcg-keypad-control-bar .dcg-keypad-control-btn:not(.dcg-disabled).dcg-selectable-btn:after {
+    border-radius: 4px !important;
 }
