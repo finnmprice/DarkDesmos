@@ -35,7 +35,9 @@ body,
 .dcg-selected,
 .dcg-popover-title,
 .dcg-geometry-toolbar-view,
-.dcg-options-menu-section {
+.dcg-options-menu-section,
+.dcg-options-menu-section,
+.dcg-expressions-options-menu.dcg-options-menu {
 	background: #1f1e1f !important;
 	color: #eee !important;
 	text-shadow: none !important;

@@ -37,6 +37,14 @@
 	  },
 	  {
 	    "matches": [
+	      "https://*.desmos.com/3d/*"
+	    ],
+	    "css": [
+	      "css/3d.css"
+	    ]
+	  },
+	  {
+	    "matches": [
 	      "https://teacher.desmos.com/*"
 	    ],
 	    "css": [
