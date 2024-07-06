@@ -6,7 +6,8 @@ body,
 .dcg-shared-modal-contents-wrapper,
 .dcg-shared-bg-line span,
 .dcg-contest-info-right,
-.dcg-contest-info-left {
+.dcg-contest-info-left,
+.dcg-toast {
     background: #131213 !important;
     color: #eee !important;
 }
@@ -24,6 +25,7 @@ body,
 .dcg-icon-world,
 .dcg-icon-rocket,
 .dcg-icon-lock,
+.dcg-icon-table,
 .dcg-icon-accessibility,
 .dcg-language-option.dcg-selected,
 .dcg-app-links ,
@@ -42,7 +44,8 @@ body,
     opacity: 1 !important;
 }
 
-.dcg-year-picker a {
+.dcg-year-picker a,
+.dcg-toast a {
 	color: #777 !important;
 }
 
@@ -61,7 +64,8 @@ body,
 
 .dcg-shared-google-login,
 .dcg-shared-apple-login,
-.dcg-btn-gray-outline {
+.dcg-btn-gray-outline,
+.dcg-toast {
     border: 1px solid white !important;
 }
 

@@ -68,7 +68,7 @@ body,
 	border: 1px solid white !important;
 }
 
-.dcg-tooltip-hit-area-container.dcg-depressed,
+.dcg-zoominout-pillbox div.dcg-depressed,
 .dcg-action-zoomrestore.dcg-depressed,
 .dcg-settings-pillbox.dcg-depressed {
 	background: #3C3A3C !important;
@@ -105,6 +105,8 @@ body,
 
 .dcg-mq-editable-field:not(.dcg-no-fadeout):after,
 .dcg-graphic {
+	border-top-right-radius: 5px !important;
+	border-bottom-right-radius: 5px !important;
 	background: linear-gradient(to right,#fff0, #131213) !important;
 }
 
@@ -177,6 +179,34 @@ body,
 }
 
 .dcg-btn-primary.dcg-action-createaccount,
-.dcg-calculator-api-container-v1_10 .dcg-btn-white-outline {
+.dcg-calculator-api-container-v1_10 .dcg-btn-white-outline,
+.dcg-segmented-control-btn.dcg-theme-default {
 	border-radius: 10px !important;
+}
+
+.dcg-calculator-api-container-v1_10 .dcg-segmented-control-container .dcg-segmented-control-btn.dcg-theme-default.dcg-selected {
+	border: 1px solid white !important;
+	border-radius: 10px !important;
+}
+
+.dcg-calculator-api-container-v1_10 .dcg-segmented-control-container .dcg-segmented-control-btn.dcg-theme-default .dcg-segmented-control-interior {
+	padding: 0 36px !important;
+}
+
+.dcg-segmented-control-interior .dcg-depressed {
+	border-radius: 10px !important;
+}
+
+.dcg-calculator-api-container-v1_10 .dcg-segmented-control-container .dcg-segmented-control-btn.dcg-theme-default.dcg-depressed {
+	border-radius: 10px !important;
+}
+
+.dcg-calculator-api-container-v1_10 .dcg-container .dcg-mq-editable-field:not(.dcg-no-fadeout) {
+	border-radius: 5px !important;
+}
+
+.dcg-calculator-api-container-v1_10 .dcg-inline-math-input-view .dcg-math-field,
+.dcg-calculator-api-container-v1_10 .dcg-inline-math-input-view .dcg-math-field.dcg-focus,
+.dcg-calculator-api-container-v1_10 .dcg-inline-math-input-view .dcg-math-field.dcg-hovered:not(.dcg-focus):not(.dcg-invalid):not(.dcg-static-mathquill-view) {
+	border: none !important;
 }
