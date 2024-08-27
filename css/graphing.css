@@ -5,8 +5,12 @@ body,
 .dcg-container,
 .dcg-calculator-api-container-v1_10 .dcg-container .dcg-mq-editable-field:not(.dcg-no-fadeout),
 .dcg-main,
-.dcg-fade-container {
+.dcg-fade-container,
+.dcg-selected,
+.dcg-feature,
+.dcg-help-menu-title {
 	background: #131213 !important;
+	color: #eee !important;
 }
 
 .dcg-tab,
@@ -25,14 +29,8 @@ body,
 .dcg-section-heading,
 .dcg-icon-question-sign,
 .dcg-unstyled-heading,
-.dcg-resource-link span,
-.dcg-resource-link i,
-.dcg-feature,
-.dcg-contact-link span,
 .dcg-contact-link i,
-.dcg-share-actions span span,
 .dcg-share-actions button span,
-.dcg-selected,
 .dcg-popover-title,
 .dcg-geometry-toolbar-view,
 .dcg-options-menu-section,
@@ -43,12 +41,16 @@ body,
 	text-shadow: none !important;
 }
 
-.dcg-smart-textarea {
+.dcg-smart-textarea,
+.dcg-resource-link span,
+.dcg-resource-link i,
+.dcg-share-actions span span,
+.dcg-contact-link span {
 	color: #eee !important;
 }
 
 .dcg-arrow {
-  border-left-color: #1f1e1f !important;
+  border-left-color: transparent !important;
 }
 
 .dcg-calculator-api-container-v1_10 .dcg-popover.dcg-top .dcg-arrow {
@@ -209,4 +211,21 @@ body,
 .dcg-calculator-api-container-v1_10 .dcg-inline-math-input-view .dcg-math-field.dcg-focus,
 .dcg-calculator-api-container-v1_10 .dcg-inline-math-input-view .dcg-math-field.dcg-hovered:not(.dcg-focus):not(.dcg-invalid):not(.dcg-static-mathquill-view) {
 	border: none !important;
+}
+
+.dcg-calculator-api-container-v1_10 .dcg-language-container .dcg-arrow {
+	right: 44px !important;
+}
+
+.dcg-calculator-api-container-v1_10 .dcg-help-container .dcg-arrow {
+	right: 84px !important;
+}
+
+.dcg-calculator-api-container-v1_10 .dcg-share-container .dcg-arrow {
+	right: 124px !important;
+}
+
+.dcg-calculator-api-container-v1_10 .dcg-dropdown-popover.dcg-bottom .dcg-arrow,
+.dcg-calculator-api-container-v1_10 .dcg-dropdown-popover.dcg-bottom .dcg-arrow:after {
+	border-bottom-color: #131213 !important;
 }
