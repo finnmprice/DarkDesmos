@@ -5,8 +5,8 @@ function injectGitHubIcon() {
       const githubIconUrl = chrome.runtime.getURL('css/github.svg');
       
       const isMainDomain = !window.location.href.includes('calculator');
-      console.log(window.location.href)
-      console.log(isMainDomain)
+      // console.log(window.location.href)
+      // console.log(isMainDomain)
       const iconSize = isMainDomain ? '18px' : '19px';
       const topMargin = isMainDomain ? '-2px' : '-3px';
   

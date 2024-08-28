@@ -15,13 +15,15 @@ body,
 .dcg-frontpage-landing__button--hero,
 .dcg-dropdown-popover__interior,
 .dcg-dropdown-popover__title,
-.dcg-help-menu-title {
+.dcg-help-menu-title,
+.dcg-loading-div-container {
     background: #131213 !important;
     color: #eee !important;
 }
 
 .dcg-art-outer-wrapper,
-.dcg-main-header-container {
+.dcg-main-header-container,
+.dcg-loading-background-div {
     background: #1f1e1f !important;
 }
 
