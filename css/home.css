@@ -100,11 +100,6 @@ body,
     border: 1px solid white !important;
 }
 
-.dcg-icon-remove {
-    padding: 0px 8px !important;
-    margin-top: 0 !important;
-}
-
 .dcg-shared-apple-icon {
     mix-blend-mode: multiply;
 }
