@@ -23,7 +23,10 @@ body,
 
 .dcg-art-outer-wrapper,
 .dcg-main-header-container,
-.dcg-loading-background-div {
+.dcg-loading-background-div,
+.dsm-title-version-grid,
+.dsm-vc-capture-menu div,
+.dsm-pi-title-row div {
     background: #1f1e1f !important;
 }
 
@@ -50,7 +53,13 @@ body,
 .dcg-component-checkbox span,
 .dcg-shared-email-form-container label,
 .dcg-frontpage-landing-section,
-.dcg-frontpage-landing-tools__link-text {
+.dcg-frontpage-landing-tools__link-text,
+.dsm-category-header,
+.dsm-plugin-header,
+.dsm-plugin-description,
+.dsm-settings-label,
+.dcg-tooltip-hit-area-container label,
+.dcg-icon-reset {
     color: #eee !important;
     opacity: 1 !important;
 }
@@ -58,6 +67,16 @@ body,
 .dcg-year-picker a,
 .dcg-toast a {
 	color: #777 !important;
+}
+
+.dcg-toast {
+    border: 1px solid white !important;
+    border-radius: 10px !important;
+    display: flex !important;
+    flex-direction: row-reverse !important;
+    width: fit-content !important;
+    left: 50% !important;
+    align-content: center !important;
 }
 
 .dcg-shared-email-form-container input,
@@ -77,9 +96,13 @@ body,
 
 .dcg-shared-google-login,
 .dcg-shared-apple-login,
-.dcg-btn-gray-outline,
-.dcg-toast {
+.dcg-btn-gray-outline {
     border: 1px solid white !important;
+}
+
+.dcg-icon-remove {
+    padding: 0px 8px !important;
+    margin-top: 0 !important;
 }
 
 .dcg-shared-apple-icon {
@@ -179,4 +202,20 @@ body,
 
 .dcg-frontpage-landing-section__subheader {
     margin: 20px 0px !important;
+}
+
+.dsm-plugin-section, .dsm-category-section {
+    border-top: 1px solid #131213 !important;
+}
+
+.dcg-toggle-track {
+    background: #131213 !important;
+}
+
+.dcg-toggle-view .dcg-toggle-switch {
+    background: #666 !important;
+}
+
+.dcg-toggle-view.dcg-toggled .dcg-toggle-switch {
+    background: #ccc !important;
 }
