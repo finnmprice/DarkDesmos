@@ -16,7 +16,11 @@ body,
 .dcg-dropdown-popover__interior,
 .dcg-dropdown-popover__title,
 .dcg-help-menu-title,
-.dcg-loading-div-container {
+.dcg-loading-div-container,
+.dcg-state-modals,
+.lt-breadcrumbs-wrapper,
+.lt-toc_is-mobile .lt-toc--container,
+.lt-topbar__controls {
     background: #131213 !important;
     color: #eee !important;
 }
@@ -26,7 +30,8 @@ body,
 .dcg-loading-background-div,
 .dsm-title-version-grid,
 .dsm-vc-capture-menu div,
-.dsm-pi-title-row div {
+.dsm-pi-title-row div,
+.lt-search-box--small {
     background: #1f1e1f !important;
 }
 
@@ -80,11 +85,14 @@ body,
 }
 
 .dcg-shared-email-form-container input,
+.dcg-input-blue-outline,
 .dcg-shared-google-login,
 .dcg-shared-apple-login,
 .dcg-btn-gray-outline,
 .dcg-frontpage-landing-classroom__card,
-.dcg-frontpage-landing-section--testing {
+.dcg-frontpage-landing-section--testing,
+/* .dcg-braille-input, */
+.dcg-tooltip-message {
     background: #1f1e1f !important;
     color: #eee !important;
     border-radius: 10px !important;
@@ -120,7 +128,11 @@ body,
     display: flex !important;
 }
 
-.dcg-shared-cookie-notice {
+.dcg-shared-cookie-notice,
+.pagination-next-link,
+.pagination-last-link,
+.pagination-prev-link,
+.pagination-first-link {
     border: 1px solid white !important;
     color: #eee !important;
     background: none !important;
@@ -145,7 +157,8 @@ body,
 
 .dcg-calculator-api-container-v1_10 input.dcg-shared-input-blue-outline,
 .dcg-calculator-api-container-v1_10 textarea.dcg-shared-input-blue-outline,
-.dcg-selectable-input-container input {
+.dcg-selectable-input-container input,
+.dcg-variable-htmlembedcode {
     cursor: text !important;
     background-color: #1f1e1f !important;
     color: #eee !important;
@@ -164,7 +177,6 @@ body,
     color: #eee !important;
     border-radius: 0 10px 10px 0 !important;
 }
-
 
 .dcg-selectable-input-container {
     border-radius: 10px !important;
@@ -213,4 +225,22 @@ body,
 
 .dcg-toggle-view.dcg-toggled .dcg-toggle-switch {
     background: #ccc !important;
+}
+
+.dcg-select-dropdown-container {
+    color: #000 !important;
+}
+
+.dcg-trip-interior {
+    background: #131213 !important;
+    color: #eee !important;
+    border: 3px solid #eee !important;
+}
+
+.dcg-trip-arrow {
+    border-right-color: #eee !important;
+}
+
+.lt-search-result__text em {
+    background-color: #424242 !important;
 }
