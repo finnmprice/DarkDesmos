@@ -5,7 +5,6 @@ body,
 }
 
 .dcg-main-header-container,
-.dcg-calc-basic-main,
 .dcg-keypad-btn.dcg-btn-light-on-gray,
 .dcg-latex-expression,
 .dcg-keypad-control-bar {
@@ -13,8 +12,6 @@ body,
 }
 
 .dcg-scientific-container,
-.dcg-calculator-api-container-v1_10,
-.dcg-calc-basic-main,
 .dcg-basic-list-container,
 .dcg-basic-keypad-container,
 .dcg-matrix-container,
@@ -25,11 +22,23 @@ body,
     border: none !important;
 }
 
+.dcg-calculator-api-container-v1_10,
+.dcg-calc-basic-main-wrapper,
+.dcg-calc-basic-main,
+.dcg-basic-list-container  {
+    background: transparent !important;
+}
+
 .dcg-basic-list-container,
 .dcg-matrix-list-container {
     scrollbar-width: none;
     -ms-overflow-style: none;
 }
+
+/* .dcg-scientific-container {
+    border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+} */
 
 .dcg-basic-list-container::-webkit-scrollbar,
 .dcg-matrix-list-container::-webkit-scrollbar {
@@ -132,6 +141,7 @@ body,
 .dcg-segmented-control-btn.dcg-theme-mini.dcg-selected {
     color: #eee !important;
     border: 1px solid #eee !important;
+    background: #1f1e1f !important;
 }
 
 .dcg-calculator-api-container-v1_10 .dcg-keypad-control-bar .dcg-keypad-control-btn:not(.dcg-disabled).dcg-selectable-btn.dcg-selected:after,

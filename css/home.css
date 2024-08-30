@@ -20,7 +20,9 @@ body,
 .dcg-state-modals,
 .lt-breadcrumbs-wrapper,
 .lt-toc_is-mobile .lt-toc--container,
-.lt-topbar__controls {
+.lt-topbar__controls,
+.dcg-printable-page-container,
+.dcg-toggle-track {
     background: #131213 !important;
     color: #eee !important;
 }
@@ -31,7 +33,9 @@ body,
 .dsm-title-version-grid,
 .dsm-vc-capture-menu div,
 .dsm-pi-title-row div,
-.lt-search-box--small {
+.lt-search-box--small,
+.dcg-braille-example-page .dcg-printable-page-container table th,
+.lt-topbar__link {
     background: #1f1e1f !important;
 }
 
@@ -64,7 +68,10 @@ body,
 .dsm-plugin-description,
 .dsm-settings-label,
 .dcg-tooltip-hit-area-container label,
-.dcg-icon-reset {
+.dcg-icon-reset,
+.dcg-braille-title,
+.dcg-braille-font,
+.dcg-braille-examples-table tr th {
     color: #eee !important;
     opacity: 1 !important;
 }
@@ -215,10 +222,6 @@ body,
     border-top: 1px solid #131213 !important;
 }
 
-.dcg-toggle-track {
-    background: #131213 !important;
-}
-
 .dcg-toggle-view .dcg-toggle-switch {
     background: #666 !important;
 }
@@ -243,4 +246,14 @@ body,
 
 .lt-search-result__text em {
     background-color: #424242 !important;
+}
+
+.dcg-key-press {
+    background: #131213 !important;
+    border: 1px solid #eee !important;
+}
+
+.lt-scroll-to-top {
+    border: var(--border-width) solid #eee !important;
+    color: #eee !important;
 }
