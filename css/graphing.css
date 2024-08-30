@@ -199,8 +199,7 @@ body,
 
 .dcg-btn-primary.dcg-action-createaccount,
 .dcg-calculator-api-container-v1_10 .dcg-btn-white-outline,
-.dcg-segmented-control-btn.dcg-theme-default,
-.dcg-btn-red {
+.dcg-segmented-control-btn.dcg-theme-default {
 	border-radius: 10px !important;
 }
 
@@ -314,16 +313,6 @@ body,
 .dcg-action-save.dcg-disabled {
 	padding: 0px 15px !important;
 	border-radius: 10px !important;
-}
-
-.dcg-scrollable, 
-.dcg-exppanel {
-	scrollbar-width: none;
-	-ms-overflow-style: none;
-}
-  
-.dcg-scrollable::-webkit-scrollbar, .dcg-exppanel::-webkit-scrollbar {
-	display: none;
 }
 
 .dcg-expressionitem.dcg-selected {

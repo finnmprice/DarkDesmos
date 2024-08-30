@@ -17,14 +17,14 @@ body,
 .dcg-matrix-container,
 .dcg-matrix-list-container,
 .dcg-matrix-list-placeholder,
-.dcg-popover-interior {
+.dcg-popover-interior,
+.dcg-calc-basic-main {
     background: #1f1e1f !important;
     border: none !important;
 }
 
 .dcg-calculator-api-container-v1_10,
 .dcg-calc-basic-main-wrapper,
-.dcg-calc-basic-main,
 .dcg-basic-list-container  {
     background: transparent !important;
 }

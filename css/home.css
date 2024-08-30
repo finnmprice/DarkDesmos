@@ -22,7 +22,8 @@ body,
 .lt-toc_is-mobile .lt-toc--container,
 .lt-topbar__controls,
 .dcg-printable-page-container,
-.dcg-toggle-track {
+.dcg-toggle-track,
+.navbar-inner {
     background: #131213 !important;
     color: #eee !important;
 }
@@ -71,7 +72,11 @@ body,
 .dcg-icon-reset,
 .dcg-braille-title,
 .dcg-braille-font,
-.dcg-braille-examples-table tr th {
+.dcg-braille-examples-table tr th,
+.dcg-user-name,
+.dcg-email,
+.dcg-team-name,
+.dcg-team-title {
     color: #eee !important;
     opacity: 1 !important;
 }
@@ -82,7 +87,7 @@ body,
 }
 
 .dcg-toast {
-    border: 1px solid white !important;
+    border: 1px solid #eee !important;
     border-radius: 10px !important;
     display: flex !important;
     flex-direction: row-reverse !important;
@@ -112,7 +117,7 @@ body,
 .dcg-shared-google-login,
 .dcg-shared-apple-login,
 .dcg-btn-gray-outline {
-    border: 1px solid white !important;
+    border: 1px solid #eee !important;
 }
 
 .dcg-shared-apple-icon {
@@ -140,13 +145,14 @@ body,
 .pagination-last-link,
 .pagination-prev-link,
 .pagination-first-link {
-    border: 1px solid white !important;
+    border: 1px solid #eee !important;
     color: #eee !important;
     background: none !important;
 }
 
 .dcg-btn-blue,
-.dcg-frontpage-landing__button--hero {
+.dcg-frontpage-landing__button--hero,
+.dcg-btn-red {
     border-radius: 10px !important;
 }
 
@@ -185,15 +191,30 @@ body,
     border-radius: 0 10px 10px 0 !important;
 }
 
-.dcg-selectable-input-container {
+.dcg-selectable-input-container,
+.toctree-l1 a {
     border-radius: 10px !important;
     border: 1px solid #eee !important;
 }
 
+.toctree-l1 a {
+    border-radius: 10px !important;
+    border: 1px solid #1f1e1f !important;
+    color: #eee !important;
+    background: #131213 !important;
+    margin-bottom: 5px !important;
+}
+
+.nav ul li.active a {
+    border: 1px solid #eee !important;
+}
+
 .dcg-btn-blue,
-.dcg-btn-white-outline {
+.dcg-btn-white-outline,
+.dcg-btn-blue-outline {
     background: transparent !important;
     border: 1px solid #bbb !important;
+    border-radius: 10px !important;
     color: #bbb !important;
     transition: 0.2s !important;
 }
@@ -256,4 +277,25 @@ body,
 .lt-scroll-to-top {
     border: var(--border-width) solid #eee !important;
     color: #eee !important;
+}
+
+.navbar .brand {
+    text-shadow: none !important;
+}
+
+.dcg-scrollable, 
+.dcg-exppanel,
+.sticky-nav ul {
+	scrollbar-width: none;
+	-ms-overflow-style: none;
+}
+  
+.dcg-scrollable::-webkit-scrollbar,
+.dcg-exppanel::-webkit-scrollbar,
+.sticky-nav ul::-webkit-scrollbar {
+	display: none;
+}
+
+.dcg-team-member-bio .dcg-team-photo {
+    border: 3px solid #eee !important;
 }
