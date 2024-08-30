@@ -1,6 +1,6 @@
 {
   "name": "Dark Desmos",
-  "version": "1.0.5.2",
+  "version": "1.0.5.3",
   "manifest_version": 3,
   "description": "Dark mode for Desmos.",
   "content_scripts": [
