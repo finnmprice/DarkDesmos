@@ -39,7 +39,10 @@ body,
 .dcg-options-menu-section,
 .dcg-options-menu-section,
 .dcg-expressions-options-menu.dcg-options-menu,
-.dcg-calculator-api-container-v1_10 .dcg-header {
+.dcg-calculator-api-container-v1_10 .dcg-header,
+.align-right-container div input,
+.align-right-container div input::placeholder,
+.plasmo-bg-gray-100 {
 	background: #1f1e1f !important;
 	color: #eee !important;
 	text-shadow: none !important;
@@ -51,7 +54,8 @@ body,
 .dcg-share-actions span span,
 .dcg-contact-link span,
 .dcg-calculator-api-container-v1_10 .dcg-smart-textarea-container .dcg-displayTextarea,
-.dcg-title {
+.dcg-title,
+.align-right-container div input {
 	color: #eee !important;
 }
 
@@ -72,7 +76,8 @@ body,
 }
 
 .dcg-axis-label input,
-.dcg-keypad-btn {
+.dcg-keypad-btn,
+.align-right-container div input {
 	border: 1px solid #eee !important;
 }
 
@@ -107,7 +112,8 @@ body,
 	text-shadow: none !important;
 }
 
-.dcg-header-desktop {
+.dcg-header-desktop,
+.dsm-usage-tip {
 	background: #1f1e1f !important;
 }
 
@@ -199,7 +205,8 @@ body,
 
 .dcg-btn-primary.dcg-action-createaccount,
 .dcg-calculator-api-container-v1_10 .dcg-btn-white-outline,
-.dcg-segmented-control-btn.dcg-theme-default {
+.dcg-segmented-control-btn.dcg-theme-default,
+.dsm-usage-tip {
 	border-radius: 10px !important;
 }
 
@@ -338,3 +345,28 @@ body,
 	margin-top: 0 !important;
 	margin-bottom: 0 !important;
 }
+
+.dsm-usage-tip {
+	padding: 5px !important;
+}
+
+.dcg-expressions-branding {
+	margin-bottom: 5px !important;
+	margin-left: 5px !important;
+}
+
+.dsm-usage-tip .dcg-hovered {
+	color: #444 !important;
+}
+
+.align-right-container div button svg {
+	padding-top: 5px !important;
+	color: #fff !important;
+	fill: #fff !important;
+}
+
+/* .align-right-container div button {
+	display: flex !important;
+	justify-content: center !important;
+	align-items: center !important;
+} */

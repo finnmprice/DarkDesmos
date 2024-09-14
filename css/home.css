@@ -36,7 +36,8 @@ body,
 .dsm-pi-title-row div,
 .lt-search-box--small,
 .dcg-braille-example-page .dcg-printable-page-container table th,
-.lt-topbar__link {
+.lt-topbar__link,
+[dir="ltr"] .callout {
     background: #1f1e1f !important;
 }
 
@@ -76,7 +77,8 @@ body,
 .dcg-user-name,
 .dcg-email,
 .dcg-team-name,
-.dcg-team-title {
+.dcg-team-title,
+[dir="ltr"] .callout {
     color: #eee !important;
     opacity: 1 !important;
 }
