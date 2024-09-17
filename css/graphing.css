@@ -108,9 +108,14 @@ body,
 .dcg-msg,
 .dcg-icon-desmos,
 .dcg-powered-by,
-.dcg-icon-show {
+.dcg-icon-show{
 	color: #eee !important;
 	text-shadow: none !important;
+}
+
+.dcg-calculator-api-container-v1_10 .dcg-circular-icon.dcg-thick-outline {
+	color: #eee !important;
+	border: 2px solid #eee !important;
 }
 
 .dcg-header-desktop,
@@ -123,6 +128,16 @@ body,
 	border-top-right-radius: 5px !important;
 	border-bottom-right-radius: 5px !important;
 	background: linear-gradient(to right,#fff0, #131213) !important;
+}
+
+.dcg-track .dcg-graphic {
+	border: none !important;
+	background: #ddd !important;
+}
+
+.dcg-thumb .dcg-graphic {
+	background: #2f72dc59 !important;
+	border-radius: 50% !important;
 }
 
 .dcg-calculator-api-container-v1_10 .dcg-container .dcg-mq-editable-field:not(.dcg-no-fadeout) .dcg-mq-root-block.dcg-mq-editing-overflow-left:before {
