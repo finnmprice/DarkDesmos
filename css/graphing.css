@@ -43,7 +43,10 @@ body,
 .dcg-calculator-api-container-v1_10 .dcg-header,
 .align-right-container div input,
 .align-right-container div input::placeholder,
-.plasmo-bg-gray-100 {
+.plasmo-bg-gray-100,
+.dcg-expression-search-bar,
+.dcg-math-field,
+.dcg-geo-show-constructions-pane {
 	background: #1f1e1f !important;
 	color: #eee !important;
 	text-shadow: none !important;
@@ -170,6 +173,14 @@ body,
 
 .dcg-tooltip-hit-area-container:before {
 	background: linear-gradient(to left, #131213, #fff0) !important;
+}
+
+.dcg-geo-show-constructions-pane:before {
+	background: linear-gradient(to top, #fff0, #131213) !important;
+}
+
+.dcg-geo-show-constructions-pane:after {
+	background: linear-gradient(to bottom, #fff0, #131213) !important;
 }
 
 .dcg-icon-remove,
@@ -349,7 +360,6 @@ body,
 }
 
 .dcg-calculator-api-container-v1_10 .dcg-exppanel .dcg-expressionitem.dcg-selected {
-	/* border-top: 2px solid #1f1e1f !important; */
 	border-right: 1px solid transparent !important;
 }
 
@@ -379,4 +389,12 @@ body,
 	padding-top: 5px !important;
 	color: #fff !important;
 	fill: #fff !important;
+}
+
+.dcg-calculator-api-container-v1_10 .dcg-expression-search-bar .dcg-mq-container {
+	width: calc(100% - 1px) !important;
+}
+
+.dcg-calculator-api-container-v1_10 .dcg-geo-token-view {
+	background: transparent !important;
 }

@@ -25,7 +25,8 @@ body,
 
 .dcg-calculator-api-container-v1_10,
 .dcg-calc-basic-main-wrapper,
-.dcg-basic-list-container  {
+.dcg-basic-list-container,
+.dcg-keypad-btn{
     background: transparent !important;
 }
 
