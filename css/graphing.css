@@ -398,3 +398,12 @@ body,
 .dcg-calculator-api-container-v1_10 .dcg-geo-token-view {
 	background: transparent !important;
 }
+
+.dcg-label-input {
+	color: #eee !important;
+	border-radius: 5px !important;
+}
+
+.dcg-label-raw-text {
+	color: #000 !important;
+}
