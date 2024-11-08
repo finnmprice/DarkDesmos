@@ -11,7 +11,9 @@ body,
 .dcg-help-menu-title,
 #dsm-panic-popover,
 .graph-preview,
-.dcg-calculator-api-container-v1_10 .dcg-exppanel .dcg-expressionitem.dcg-shell {
+.dcg-calculator-api-container-v1_10 .dcg-exppanel .dcg-expressionitem.dcg-shell,
+span.dcg-mq-root-block,
+.dcg-blue-link{
 	background: #131213 !important;
 	color: #eee !important;
 }

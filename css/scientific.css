@@ -17,16 +17,21 @@ body,
 .dcg-matrix-container,
 .dcg-matrix-list-container,
 .dcg-matrix-list-placeholder,
-.dcg-popover-interior,
-.dcg-calc-basic-main {
+.dcg-popover-interior {
     background: #1f1e1f !important;
     border: none !important;
+}
+
+.dcg-calculator-api-container-v1_11 .dcg-basic-list-container .dcg-basic-list-placeholder,
+.dcg-keypad-control-bar {
+	border: none !important;
 }
 
 .dcg-calculator-api-container-v1_10,
 .dcg-calc-basic-main-wrapper,
 .dcg-basic-list-container,
-.dcg-keypad-btn{
+.dcg-keypad-btn,
+.dcg-calc-basic-main {
     background: transparent !important;
 }
 
@@ -36,10 +41,24 @@ body,
     -ms-overflow-style: none;
 }
 
-/* .dcg-scientific-container {
-    border-top-left-radius: 10px !important;
-    border-top-right-radius: 10px !important;
-} */
+.dcg-scientific-container {
+		padding: 10px !important;
+    border-radius: 10px !important;
+    border: 1px solid #333 !important;
+}
+
+.dcg-scientific-container:before {
+	content: '' !important;
+	width: 580px !important;
+	height: 24px !important;
+	pointer-events: none !important;
+	position: absolute !important;
+	top: 10px !important;
+	left: 10px !important;
+	right: 10px !important;
+	background: linear-gradient(to bottom,#1f1e1f, #fff0) !important;
+	z-index: 1 !important;
+}
 
 .dcg-basic-list-container::-webkit-scrollbar,
 .dcg-matrix-list-container::-webkit-scrollbar {
@@ -93,13 +112,25 @@ body,
 
 .dcg-calculator-api-container-v1_10 .dcg-container .dcg-mq-editable-field:not(.dcg-no-fadeout):after,
 .dcg-calculator-api-container-v1_10 .dcg-container .dcg-mq-editable-field:not(.dcg-no-fadeout) .dcg-mq-root-block.dcg-mq-editing-overflow-left:before,
-.dcg-matrix-api-container-v1_10 .dcg-container .dcg-mq-editable-field:not(.dcg-no-fadeout):after {
-    background: linear-gradient(to right,#fff0,#1f1e1f) !important;
+.dcg-matrix-api-container-v1_10 .dcg-container .dcg-mq-editable-field:not(.dcg-no-fadeout):after,
+.dcg-calculator-api-container-v1_11 .dcg-container .dcg-mq-editable-field:not(.dcg-no-fadeout):after {
+    background: linear-gradient(to right,#fff0, #1f1e1f) !important;
 }
 
-.dcg-calculator-api-container-v1_10 .dcg-basic-expression.dcg-focused {
-    border-color: #fff !important;
+.dcg-calculator-api-container-v1_11 .dcg-container .dcg-mq-editable-field:not(.dcg-no-fadeout) .dcg-mq-root-block.dcg-mq-editing-overflow-left:before {
+	background: linear-gradient(to left,#fff0, #1f1e1f) !important;
+}
+
+.dcg-calculator-api-container-v1_10 .dcg-basic-expression.dcg-focused,
+.dcg-basic-expression.dcg-focused {
+    border-color: #aaa !important;
     box-shadow: inset 0 0 0 0px #fff !important;
+}
+
+.dcg-basic-expression {
+	border-color: #aaa !important;
+	border-radius: 5px !important;
+	margin-top: 5px !important;
 }
 
 .dcg-popover-title {
