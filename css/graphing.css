@@ -13,7 +13,7 @@ body,
 .graph-preview,
 .dcg-calculator-api-container-v1_10 .dcg-exppanel .dcg-expressionitem.dcg-shell,
 span.dcg-mq-root-block,
-.dcg-blue-link{
+.dcg-calculator-api-container-v1_11 .dcg-authentication-modal__detail--privacy{
 	background: #131213 !important;
 	color: #eee !important;
 }
@@ -48,7 +48,9 @@ span.dcg-mq-root-block,
 .plasmo-bg-gray-100,
 .dcg-expression-search-bar,
 .dcg-math-field,
-.dcg-geo-show-constructions-pane {
+.dcg-geo-show-constructions-pane,
+.dcg-static-mathquill-view span,
+.dcg-shared-input-blue-outline{
 	background: #1f1e1f !important;
 	color: #eee !important;
 	text-shadow: none !important;
@@ -113,7 +115,8 @@ span.dcg-mq-root-block,
 .dcg-msg,
 .dcg-icon-desmos,
 .dcg-powered-by,
-.dcg-icon-show{
+.dcg-icon-show,
+.dcg-icon-sparkle {
 	color: #eee !important;
 	text-shadow: none !important;
 }
@@ -235,7 +238,8 @@ span.dcg-mq-root-block,
 .dcg-btn-primary.dcg-action-createaccount,
 .dcg-calculator-api-container-v1_10 .dcg-btn-white-outline,
 .dcg-segmented-control-btn.dcg-theme-default,
-.dsm-usage-tip {
+.dsm-usage-tip,
+.dcg-shared-input-blue-outline {
 	border-radius: 10px !important;
 }
 
@@ -393,6 +397,10 @@ span.dcg-mq-root-block,
 	fill: #fff !important;
 }
 
+.dcg-calculator-api-container-v1_11 .dcg-exppanel .dcg-expressionitem {
+	border-top: none !important;
+}
+
 .dcg-calculator-api-container-v1_10 .dcg-expression-search-bar .dcg-mq-container {
 	width: calc(100% - 1px) !important;
 }
@@ -408,4 +416,13 @@ span.dcg-mq-root-block,
 
 .dcg-label-raw-text {
 	color: #000 !important;
+}
+
+.dcg-blue-link {
+	color: #aaa !important;
+}
+
+
+.dcg-calculator-api-container-v1_11 .dcg-shared-modal-cover .dcg-shared-modal-title.dcg-shared-modal-title--sticky:before {
+	display: none !important;
 }
