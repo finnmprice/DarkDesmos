@@ -51,7 +51,7 @@ body,
 .dcg-icon-table,
 .dcg-icon-accessibility,
 .dcg-language-option.dcg-selected,
-.dcg-app-links ,
+.dcg-app-links,
 .dcg-header-link-dropdown li,
 .dcg-dropdown-link,
 .dcg-classroom-card,
@@ -85,7 +85,7 @@ body,
 
 .dcg-year-picker a,
 .dcg-toast a {
-	color: #777 !important;
+    color: #777 !important;
 }
 
 .dcg-toast {
@@ -131,11 +131,11 @@ body,
 }
 
 .dcg-header-link-title-container:hover {
-	color: #777 !important;
+    color: #777 !important;
 }
 
 .dcg-contest-info-container .dcg-contest-info {
-	background: #121211 url(/assets/img/contest/art-contest-wave-2023.png) left !important;
+    background: #121211 url(/assets/img/contest/art-contest-wave-2023.png) left !important;
 }
 
 .align-right-container {
@@ -180,8 +180,10 @@ body,
     border-radius: 10px !important;
 }
 
-.dcg-calculator-api-container-v1_10 input.dcg-shared-input-blue-outline::placeholder,
-.dcg-calculator-api-container-v1_10 textarea.dcg-shared-input-blue-outline::placeholder {
+.dcg-calculator-api-container-v1_10
+    input.dcg-shared-input-blue-outline::placeholder,
+.dcg-calculator-api-container-v1_10
+    textarea.dcg-shared-input-blue-outline::placeholder {
     color: #777 !important;
     border-radius: 10px !important;
 }
@@ -241,7 +243,8 @@ body,
     margin: 20px 0px !important;
 }
 
-.dsm-plugin-section, .dsm-category-section {
+.dsm-plugin-section,
+.dsm-category-section {
     border-top: 1px solid #131213 !important;
 }
 
@@ -285,17 +288,17 @@ body,
     text-shadow: none !important;
 }
 
-.dcg-scrollable, 
+.dcg-scrollable,
 .dcg-exppanel,
 .sticky-nav ul {
-	scrollbar-width: none;
-	-ms-overflow-style: none;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
 }
-  
+
 .dcg-scrollable::-webkit-scrollbar,
 .dcg-exppanel::-webkit-scrollbar,
 .sticky-nav ul::-webkit-scrollbar {
-	display: none;
+    display: none;
 }
 
 .dcg-team-member-bio .dcg-team-photo {

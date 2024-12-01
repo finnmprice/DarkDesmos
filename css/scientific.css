@@ -22,9 +22,11 @@ body,
     border: none !important;
 }
 
-.dcg-calculator-api-container-v1_11 .dcg-basic-list-container .dcg-basic-list-placeholder,
+.dcg-calculator-api-container-v1_11
+    .dcg-basic-list-container
+    .dcg-basic-list-placeholder,
 .dcg-keypad-control-bar {
-	border: none !important;
+    border: none !important;
 }
 
 .dcg-calculator-api-container-v1_10,
@@ -42,22 +44,22 @@ body,
 }
 
 .dcg-scientific-container {
-		padding: 10px !important;
+    padding: 10px !important;
     border-radius: 10px !important;
     border: 1px solid #333 !important;
 }
 
 .dcg-scientific-container:before {
-	content: '' !important;
-	width: 580px !important;
-	height: 24px !important;
-	pointer-events: none !important;
-	position: absolute !important;
-	top: 10px !important;
-	left: 10px !important;
-	right: 10px !important;
-	background: linear-gradient(to bottom,#1f1e1f, #fff0) !important;
-	z-index: 1 !important;
+    content: "" !important;
+    width: 580px !important;
+    height: 24px !important;
+    pointer-events: none !important;
+    position: absolute !important;
+    top: 10px !important;
+    left: 10px !important;
+    right: 10px !important;
+    background: linear-gradient(to bottom, #1f1e1f, #fff0) !important;
+    z-index: 1 !important;
 }
 
 .dcg-basic-list-container::-webkit-scrollbar,
@@ -88,8 +90,12 @@ body,
 .dcg-classroom-about-link-dropdown-container div,
 .dcg-unstyled-list li div,
 .dcg-language-picker-dropdown,
-.dcg-calculator-api-container-v1_10 .dcg-language-picker .dcg-language-option.dcg-depressed,
-.dcg-calculator-api-container-v1_10 .dcg-language-picker .dcg-language-option.dcg-selected,
+.dcg-calculator-api-container-v1_10
+    .dcg-language-picker
+    .dcg-language-option.dcg-depressed,
+.dcg-calculator-api-container-v1_10
+    .dcg-language-picker
+    .dcg-language-option.dcg-selected,
 .dcg-popover-title,
 .dcg-icon-world,
 .dcg-icon-print,
@@ -110,15 +116,27 @@ body,
     border: 1px solid rgba(255, 255, 255, 0.2) !important;
 }
 
-.dcg-calculator-api-container-v1_10 .dcg-container .dcg-mq-editable-field:not(.dcg-no-fadeout):after,
-.dcg-calculator-api-container-v1_10 .dcg-container .dcg-mq-editable-field:not(.dcg-no-fadeout) .dcg-mq-root-block.dcg-mq-editing-overflow-left:before,
-.dcg-matrix-api-container-v1_10 .dcg-container .dcg-mq-editable-field:not(.dcg-no-fadeout):after,
-.dcg-calculator-api-container-v1_11 .dcg-container .dcg-mq-editable-field:not(.dcg-no-fadeout):after {
-    background: linear-gradient(to right,#fff0, #1f1e1f) !important;
+.dcg-calculator-api-container-v1_10
+    .dcg-container
+    .dcg-mq-editable-field:not(.dcg-no-fadeout):after,
+.dcg-calculator-api-container-v1_10
+    .dcg-container
+    .dcg-mq-editable-field:not(.dcg-no-fadeout)
+    .dcg-mq-root-block.dcg-mq-editing-overflow-left:before,
+.dcg-matrix-api-container-v1_10
+    .dcg-container
+    .dcg-mq-editable-field:not(.dcg-no-fadeout):after,
+.dcg-calculator-api-container-v1_11
+    .dcg-container
+    .dcg-mq-editable-field:not(.dcg-no-fadeout):after {
+    background: linear-gradient(to right, #fff0, #1f1e1f) !important;
 }
 
-.dcg-calculator-api-container-v1_11 .dcg-container .dcg-mq-editable-field:not(.dcg-no-fadeout) .dcg-mq-root-block.dcg-mq-editing-overflow-left:before {
-	background: linear-gradient(to left,#fff0, #1f1e1f) !important;
+.dcg-calculator-api-container-v1_11
+    .dcg-container
+    .dcg-mq-editable-field:not(.dcg-no-fadeout)
+    .dcg-mq-root-block.dcg-mq-editing-overflow-left:before {
+    background: linear-gradient(to left, #fff0, #1f1e1f) !important;
 }
 
 .dcg-calculator-api-container-v1_10 .dcg-basic-expression.dcg-focused,
@@ -128,9 +146,9 @@ body,
 }
 
 .dcg-basic-expression {
-	border-color: #aaa !important;
-	border-radius: 5px !important;
-	margin-top: 5px !important;
+    border-color: #aaa !important;
+    border-radius: 5px !important;
+    margin-top: 5px !important;
 }
 
 .dcg-popover-title {
@@ -141,27 +159,36 @@ body,
     border: 1px solid #eee !important;
 }
 
-.dcg-matrix-api-container-v1_10 .dcg-keypad-control-btn:not(.dcg-disabled):not(.dcg-menu-btn):not(.dcg-selectable-btn).dcg-hovered {
+.dcg-matrix-api-container-v1_10
+    .dcg-keypad-control-btn:not(.dcg-disabled):not(.dcg-menu-btn):not(
+        .dcg-selectable-btn
+    ).dcg-hovered {
     box-shadow: none !important;
 }
 
-.dcg-matrix-api-container-v1_10 .dcg-keypad-control-btn:not(.dcg-disabled):not(.dcg-menu-btn).dcg-hovered {
+.dcg-matrix-api-container-v1_10
+    .dcg-keypad-control-btn:not(.dcg-disabled):not(.dcg-menu-btn).dcg-hovered {
     background: rgba(255, 255, 255, 0.2) !important;
     border-radius: 10px !important;
     z-index: 1 !important;
 }
 
-.dcg-matrix-api-container-v1_10 .dcg-btn-blue, .dcg-matrix-api-container-v1_10 .dcg-btn-primary {
+.dcg-matrix-api-container-v1_10 .dcg-btn-blue,
+.dcg-matrix-api-container-v1_10 .dcg-btn-primary {
     border: none !important;
     border-radius: 10px !important;
     z-index: 1 !important;
 }
 
-.dcg-calculator-api-container-v1_10 .dcg-settings-dropdown.dcg-popover .dcg-popover-interior:after {
+.dcg-calculator-api-container-v1_10
+    .dcg-settings-dropdown.dcg-popover
+    .dcg-popover-interior:after {
     border-color: #1f1e1f transparent transparent !important;
 }
 
-.dcg-calculator-api-container-v1_10 .dcg-settings-dropdown.dcg-popover .dcg-popover-interior:before {
+.dcg-calculator-api-container-v1_10
+    .dcg-settings-dropdown.dcg-popover
+    .dcg-popover-interior:before {
     display: none !important;
 }
 
@@ -176,7 +203,13 @@ body,
     background: #1f1e1f !important;
 }
 
-.dcg-calculator-api-container-v1_10 .dcg-keypad-control-bar .dcg-keypad-control-btn:not(.dcg-disabled).dcg-selectable-btn.dcg-selected:after,
-.dcg-calculator-api-container-v1_10 .dcg-keypad-control-bar .dcg-keypad-control-btn:not(.dcg-disabled).dcg-selectable-btn:after {
+.dcg-calculator-api-container-v1_10
+    .dcg-keypad-control-bar
+    .dcg-keypad-control-btn:not(
+        .dcg-disabled
+    ).dcg-selectable-btn.dcg-selected:after,
+.dcg-calculator-api-container-v1_10
+    .dcg-keypad-control-bar
+    .dcg-keypad-control-btn:not(.dcg-disabled).dcg-selectable-btn:after {
     border-radius: 4px !important;
 }

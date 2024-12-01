@@ -1,4 +1,3 @@
-
 # Dark Desmos
 
 ![banner](https://github.com/finnmprice/DarkDesmos/blob/main/images/banner.png?raw=true)
@@ -6,8 +5,6 @@
 A simple dark mode for all of Desmos.
 
 This extension can be installed through the [Chrome Web Store](https://chromewebstore.google.com/detail/dark-desmos/gijaeiclglddnpmfgbdfkepijpcpnhjc)
-
-
 
 ![calculator](https://github.com/finnmprice/DarkDesmos/blob/main/images/calculator.png?raw=true)
 
