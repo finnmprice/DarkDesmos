@@ -1,63 +1,63 @@
 {
-    "name": "Dark Desmos",
-    "version": "1.0.5.11",
-    "manifest_version": 3,
-    "description": "Dark mode for Desmos.",
-    "content_scripts": [
-        {
-            "matches": [
-                "https://*.desmos.com/calculator*",
-                "https://*.desmos.com/3d*",
-                "https://*.desmos.com/geometry*"
-            ],
-            "css": ["css/graphing.css"]
-        },
-        {
-            "matches": [
-                "https://*.desmos.com/scientific*",
-                "https://*.desmos.com/fourfunction*",
-                "https://*.desmos.com/matrix*"
-            ],
-            "css": ["css/scientific.css"]
-        },
-        {
-            "matches": ["https://*.desmos.com/*"],
-            "css": ["css/home.css"],
-            "js": ["js/header.js"]
-        },
-        {
-            "matches": ["https://*.desmos.com/3d/*"],
-            "css": ["css/3d.css"]
-        },
-        {
-            "matches": ["https://teacher.desmos.com/*"],
-            "css": ["css/teacher.css"]
-        },
-        {
-            "matches": ["https://student.desmos.com/*"],
-            "css": ["css/student.css"]
-        },
-        {
-            "matches": [
-                "https://*.desmos.com/about/*",
-                "https://*.desmos.com/careers/*",
-                "https://*.desmos.com/hc/*",
-                "https://*.desmos.com/accessibility/*",
-                "https://*.desmos.com/testing/*",
-                "https://*.desmos.com/partners/*",
-                "https://*.desmos.com/equity/*",
-                "https://*.desmos.com/guiding-principles/*"
-            ],
-            "css": ["css/resources.css"]
-        }
-    ],
-    "icons": {
-        "128": "images/icon.png"
+  "name": "Dark Desmos",
+  "version": "1.0.5.12",
+  "manifest_version": 3,
+  "description": "Dark mode for Desmos.",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.desmos.com/calculator*",
+        "https://*.desmos.com/3d*",
+        "https://*.desmos.com/geometry*"
+      ],
+      "css": ["css/graphing.css"]
     },
-    "web_accessible_resources": [
-        {
-            "resources": ["css/github.svg"],
-            "matches": ["https://*.desmos.com/*"]
-        }
-    ]
+    {
+      "matches": [
+        "https://*.desmos.com/scientific*",
+        "https://*.desmos.com/fourfunction*",
+        "https://*.desmos.com/matrix*"
+      ],
+      "css": ["css/scientific.css"]
+    },
+    {
+      "matches": ["https://*.desmos.com/*"],
+      "css": ["css/home.css"],
+      "js": ["js/header.js"]
+    },
+    {
+      "matches": ["https://*.desmos.com/3d/*"],
+      "css": ["css/3d.css"]
+    },
+    {
+      "matches": ["https://teacher.desmos.com/*"],
+      "css": ["css/teacher.css"]
+    },
+    {
+      "matches": ["https://student.desmos.com/*"],
+      "css": ["css/student.css"]
+    },
+    {
+      "matches": [
+        "https://*.desmos.com/about/*",
+        "https://*.desmos.com/careers/*",
+        "https://*.desmos.com/hc/*",
+        "https://*.desmos.com/accessibility/*",
+        "https://*.desmos.com/testing/*",
+        "https://*.desmos.com/partners/*",
+        "https://*.desmos.com/equity/*",
+        "https://*.desmos.com/guiding-principles/*"
+      ],
+      "css": ["css/resources.css"]
+    }
+  ],
+  "icons": {
+    "128": "images/icon.png"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["css/github.svg"],
+      "matches": ["https://*.desmos.com/*"]
+    }
+  ]
 }
