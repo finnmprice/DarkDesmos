@@ -9,31 +9,31 @@
 .dcg-grid-item,
 .dcg-page-section-container h3,
 .dcg-page-section-container ul li {
-    color: #eee !important;
+	color: #eee !important;
 }
 
 .careers-hero {
-    background: #1f1e1f !important;
+	background: #1f1e1f !important;
 }
 
 .white-background {
-    display: none !important;
+	display: none !important;
 }
 
 .dividing-line {
-    background: #eee !important;
+	background: #eee !important;
 }
 
 .lt-topbar,
 .lt-footer {
-    background: #1f1e1f !important;
-    color: #eee !important;
+	background: #1f1e1f !important;
+	color: #eee !important;
 }
 
 .dcg-background--light-blue,
 .dcg-facts-wrapper {
-    background: #131213 !important;
+	background: #131213 !important;
 }
 .dcg-searchable-dropdown-list-container {
-    color: #000 !important;
+	color: #000 !important;
 }

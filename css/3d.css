@@ -1,5 +1,9 @@
 .dcg-circular-icon.dcg-colored-icon,
 .dcg-color-picker-menu,
 .dcg-icon-parametric-solid {
-    filter: invert() !important;
+	filter: invert() !important;
+}
+
+.dcg-graph-inner {
+	background: transparent !important;
 }
