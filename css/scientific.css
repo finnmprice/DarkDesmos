@@ -22,14 +22,14 @@ body,
 	border: none !important;
 }
 
-.dcg-calculator-api-container-v1_11
+.dcg-calculator-api-container-v1_12
 	.dcg-basic-list-container
 	.dcg-basic-list-placeholder,
 .dcg-keypad-control-bar {
 	border: none !important;
 }
 
-.dcg-calculator-api-container-v1_10,
+.dcg-calculator-api-container-v1_12,
 .dcg-calc-basic-main-wrapper,
 .dcg-basic-list-container,
 .dcg-keypad-btn,
@@ -67,7 +67,7 @@ body,
 	display: none;
 }
 
-.dcg-calculator-api-container-v1_10 .dcg-container {
+.dcg-calculator-api-container-v1_12 .dcg-container {
 	background: none !important;
 	border: none !important;
 }
@@ -90,10 +90,10 @@ body,
 .dcg-classroom-about-link-dropdown-container div,
 .dcg-unstyled-list li div,
 .dcg-language-picker-dropdown,
-.dcg-calculator-api-container-v1_10
+.dcg-calculator-api-container-v1_12
 	.dcg-language-picker
 	.dcg-language-option.dcg-depressed,
-.dcg-calculator-api-container-v1_10
+.dcg-calculator-api-container-v1_12
 	.dcg-language-picker
 	.dcg-language-option.dcg-selected,
 .dcg-popover-title,
@@ -106,40 +106,40 @@ body,
 }
 
 .dcg-keypad-control-btn.dcg-disabled,
-.dcg-calculator-api-container-v1_10 .dcg-language-picker .dcg-language-option,
+.dcg-calculator-api-container-v1_12 .dcg-language-picker .dcg-language-option,
 .dcg-basic-calculator-footer a {
 	color: #777 !important;
 }
 
-.dcg-calculator-api-container-v1_10 .dcg-basic-expression,
+.dcg-calculator-api-container-v1_12 .dcg-basic-expression,
 .dcg-latex-expression {
 	border: 1px solid rgba(255, 255, 255, 0.2) !important;
 }
 
-.dcg-calculator-api-container-v1_10
+.dcg-calculator-api-container-v1_12
 	.dcg-container
 	.dcg-mq-editable-field:not(.dcg-no-fadeout):after,
-.dcg-calculator-api-container-v1_10
+.dcg-calculator-api-container-v1_12
 	.dcg-container
 	.dcg-mq-editable-field:not(.dcg-no-fadeout)
 	.dcg-mq-root-block.dcg-mq-editing-overflow-left:before,
-.dcg-matrix-api-container-v1_10
+.dcg-matrix-api-container-v1_12
 	.dcg-container
 	.dcg-mq-editable-field:not(.dcg-no-fadeout):after,
-.dcg-calculator-api-container-v1_11
+.dcg-calculator-api-container-v1_12
 	.dcg-container
 	.dcg-mq-editable-field:not(.dcg-no-fadeout):after {
 	background: linear-gradient(to right, #fff0, #1f1e1f) !important;
 }
 
-.dcg-calculator-api-container-v1_11
+.dcg-calculator-api-container-v1_12
 	.dcg-container
 	.dcg-mq-editable-field:not(.dcg-no-fadeout)
 	.dcg-mq-root-block.dcg-mq-editing-overflow-left:before {
 	background: linear-gradient(to left, #fff0, #1f1e1f) !important;
 }
 
-.dcg-calculator-api-container-v1_10 .dcg-basic-expression.dcg-focused,
+.dcg-calculator-api-container-v1_12 .dcg-basic-expression.dcg-focused,
 .dcg-basic-expression.dcg-focused {
 	border-color: #aaa !important;
 	box-shadow: inset 0 0 0 0px #fff !important;
@@ -159,34 +159,34 @@ body,
 	border: 1px solid #eee !important;
 }
 
-.dcg-matrix-api-container-v1_10
+.dcg-matrix-api-container-v1_12
 	.dcg-keypad-control-btn:not(.dcg-disabled):not(.dcg-menu-btn):not(
 		.dcg-selectable-btn
 	).dcg-hovered {
 	box-shadow: none !important;
 }
 
-.dcg-matrix-api-container-v1_10
+.dcg-matrix-api-container-v1_12
 	.dcg-keypad-control-btn:not(.dcg-disabled):not(.dcg-menu-btn).dcg-hovered {
 	background: rgba(255, 255, 255, 0.2) !important;
 	border-radius: 10px !important;
 	z-index: 1 !important;
 }
 
-.dcg-matrix-api-container-v1_10 .dcg-btn-blue,
-.dcg-matrix-api-container-v1_10 .dcg-btn-primary {
+.dcg-matrix-api-container-v1_12 .dcg-btn-blue,
+.dcg-matrix-api-container-v1_12 .dcg-btn-primary {
 	border: none !important;
 	border-radius: 10px !important;
 	z-index: 1 !important;
 }
 
-.dcg-calculator-api-container-v1_10
+.dcg-calculator-api-container-v1_12
 	.dcg-settings-dropdown.dcg-popover
 	.dcg-popover-interior:after {
 	border-color: #1f1e1f transparent transparent !important;
 }
 
-.dcg-calculator-api-container-v1_10
+.dcg-calculator-api-container-v1_12
 	.dcg-settings-dropdown.dcg-popover
 	.dcg-popover-interior:before {
 	display: none !important;
@@ -203,12 +203,12 @@ body,
 	background: #1f1e1f !important;
 }
 
-.dcg-calculator-api-container-v1_10
+.dcg-calculator-api-container-v1_12
 	.dcg-keypad-control-bar
 	.dcg-keypad-control-btn:not(
 		.dcg-disabled
 	).dcg-selectable-btn.dcg-selected:after,
-.dcg-calculator-api-container-v1_10
+.dcg-calculator-api-container-v1_12
 	.dcg-keypad-control-bar
 	.dcg-keypad-control-btn:not(.dcg-disabled).dcg-selectable-btn:after {
 	border-radius: 4px !important;
