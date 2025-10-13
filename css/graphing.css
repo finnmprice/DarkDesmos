@@ -39,7 +39,6 @@ body,
 .dcg-keypad-btn,
 .dcg-section-heading,
 .dcg-icon-question-sign,
-.dcg-unstyled-heading,
 .dcg-contact-link i,
 .dcg-share-actions button span,
 .dcg-popover-title,
@@ -56,7 +55,9 @@ body,
 .dcg-shared-input-blue-outline,
 .dcg-interval-interior .dcg-mq-root-block,
 .dcg-complex-container .dcg-options-menu-section-title,
-.dcg-complex-enabled-note {
+.dcg-complex-enabled-note,
+.dcg-calculator-api-container-v1_12 .dcg-saved-graphs-tile,
+.dcg-authentication-modal__tag {
 	background: #1f1e1f !important;
 	color: #eee !important;
 	text-shadow: none !important;
@@ -77,7 +78,10 @@ body,
 .dcg-calculator-api-container-v1_12 .dcg-icon-zoom-fit:before,
 .dcg-displayTextarea,
 .dcg-icon-folder,
-.dcg-icon-insert {
+.dcg-icon-insert,
+.dcg-unstyled-heading,
+.dcg-p-tag,
+.dcg-example-gallery__heading {
 	color: #eee !important;
 }
 
@@ -511,4 +515,24 @@ body,
 
 .dcg-graph-inner {
 	background: #1f1f1f !important;
+}
+
+.dcg-calculator-api-container-v1_12 .dcg-my-graphs-modal__options,
+.dcg-text-input__input {
+	background: none !important;
+}
+.dcg-text-input__input::placeholder {
+	color: #eee;
+}
+
+.dcg-text-input__input::-webkit-input-placeholder {
+	color: #ff0000;
+}
+
+.dcg-text-input__input::-ms-input-placeholder {
+	color: #ff0000;
+}
+
+.dcg-text-input__input {
+	color: #eee;
 }
