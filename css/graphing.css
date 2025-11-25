@@ -19,7 +19,9 @@ body,
 .dcg-label-raw-text,
 .dcg-table-regression-view__custom-model-notice,
 .dcg-dropdown-input,
-.dcg-calculator-api-container-v1_12 .dcg-expressionitem.dcg-expressiontable .dcg-cell.dcg-computed-cell {
+.dcg-calculator-api-container-v1_12 .dcg-expressionitem.dcg-expressiontable .dcg-cell.dcg-computed-cell,
+.dcg-calculator-api-container-v1_12 .dcg-my-graphs-modal__footer,
+.dcg-calculator-api-container-v1_12 .dcg-art-contest-container .dcg-contest-deadline-notice {
   background: #131213 !important;
   color: #eee !important;
 }
@@ -57,7 +59,10 @@ body,
 .dcg-complex-container .dcg-options-menu-section-title,
 .dcg-complex-enabled-note,
 .dcg-calculator-api-container-v1_12 .dcg-saved-graphs-tile,
-.dcg-authentication-modal__tag {
+.dcg-authentication-modal__tag,
+.dcg-calculator-api-container-v1_12
+  .dcg-art-contest-container
+  .dcg-submission-icon {
   background: #1f1e1f !important;
   color: #eee !important;
   text-shadow: none !important;

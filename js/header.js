@@ -46,4 +46,6 @@ function injectGitHubIcon() {
 
 if (document.readyState === "loading") {
   document.addEventListener("DOMContentLoaded", injectGitHubIcon);
+} else {
+  injectGitHubIcon();
 }
